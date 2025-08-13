@@ -1,0 +1,28 @@
+ div{
+    
+    margin-top:200px;
+    padding: 20px;
+    border:2px groove ;
+    border-radius: 30px;
+    background-color: #a2a2ba;
+}
+body{
+    background:linear-gradient(30deg,#d2001a,#7462ff,#f48e21, #23d5ab);
+    background-size: 500% 500%;
+    animation: color 12s infinite;
+    color: rgb(12, 11, 11);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@keyframes color {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
